@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import LikeButton from "./components/LikeButton";
+import MouseTracker from "./components/MouseTracker";
 function App() {
   return (
     <div className="App">
@@ -10,6 +11,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <LikeButton/>
+        <MouseTracker/>
         <a
           className="App-link"
           href="https://reactjs.org"
